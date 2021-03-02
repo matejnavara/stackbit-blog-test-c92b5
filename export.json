@@ -1,6 +1,6 @@
 {
     "cmsType": "contentful",
-    "projectTitle": "Stackbit Ampersand Theme",
+    "projectTitle": "Stackbit Blog Test",
     "staticDir": "static",
     "pagesDir": "src/pages",
     "dataDir": "src/data",
@@ -1950,14 +1950,14 @@
             "relPath": "site-metadata.json",
             "data": {
                 "stackbit_model_type": "config",
-                "title": "Stackbit Ampersand Theme",
+                "title": "Stackbit Test Blog",
                 "layout_style": "grid",
                 "palette": "green",
                 "header": {
                     "type": "header",
-                    "title": "Ampersand",
+                    "title": "Stackbit Test Blog",
                     "logo_img": "images/logo.svg",
-                    "logo_img_alt": "Ampersand Logo",
+                    "logo_img_alt": "Logo",
                     "has_nav": true,
                     "nav_links": [
                         {
@@ -1993,13 +1993,13 @@
                 },
                 "footer": {
                     "type": "footer",
-                    "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=ampersand&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>.",
+                    "content": "&copy; Radish Tech Solutions. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>.",
                     "has_social": true,
                     "social_links": [
                         {
                             "type": "action",
                             "label": "Twitter",
-                            "url": "https://twitter.com/",
+                            "url": "https://twitter.com/matejnavara",
                             "style": "icon",
                             "icon_class": "twitter",
                             "new_window": true,
@@ -2008,7 +2008,7 @@
                         {
                             "type": "action",
                             "label": "Instagram",
-                            "url": "https://www.instagram.com/",
+                            "url": "https://www.instagram.com/matejnavara",
                             "style": "icon",
                             "icon_class": "instagram",
                             "new_window": true,
@@ -2017,7 +2017,7 @@
                         {
                             "type": "action",
                             "label": "GitHub",
-                            "url": "https://github.com/",
+                            "url": "https://github.com/matejnavara",
                             "style": "icon",
                             "icon_class": "github",
                             "new_window": true,
@@ -2026,18 +2026,9 @@
                         {
                             "type": "action",
                             "label": "LinkedIn",
-                            "url": "https://www.linkedin.com/",
+                            "url": "https://www.linkedin.com/matejnavara",
                             "style": "icon",
                             "icon_class": "linkedin",
-                            "new_window": true,
-                            "stackbit_model_type": "object"
-                        },
-                        {
-                            "type": "action",
-                            "label": "DEV",
-                            "url": "https://dev.to/",
-                            "style": "icon",
-                            "icon_class": "dev",
                             "new_window": true,
                             "stackbit_model_type": "object"
                         }
