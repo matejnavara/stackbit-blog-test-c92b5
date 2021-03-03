@@ -67,3 +67,8 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+
+# Gatsby Ignore CMS provided files
+src/pages
+site-metadata.json
