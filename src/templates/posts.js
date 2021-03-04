@@ -17,9 +17,25 @@ export const query = graphql`
 `;
 
 export default class Posts extends React.Component {
+  filterPostsByCategory = (posts, category) =>
+    category
+      ? posts.filter(
+          (post) => _.get(post, "frontmatter.category", null) == category
+        )
+      : posts;
+
   render() {
+    const category = _.get(
+      this.props,
+      "pageContext.frontmatter.category",
+      null
+    );
+
     let display_posts = _.orderBy(
-      getPages(this.props.pageContext.pages, "/posts"),
+      this.filterPostsByCategory(
+        getPages(this.props.pageContext.pages, "/posts"),
+        category
+      ),
       "frontmatter.date",
       "desc"
     );
