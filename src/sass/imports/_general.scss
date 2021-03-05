@@ -370,7 +370,7 @@ input[type="reset"],
   transition: 0.3s ease;
   vertical-align: middle;
 
-  .selected,
+  &.selected,
   &:hover,
   &:focus,
   &:active {
@@ -385,7 +385,7 @@ input[type="reset"],
   background: 0;
   color: _palette(accent);
 
-  .selected,
+  &.selected,
   &:hover,
   &:focus,
   &:active {
@@ -411,7 +411,7 @@ input[type="reset"],
   justify-content: center;
   padding: 0.25em 0;
 
-  .selected,
+  &.selected,
   &:hover,
   &:focus,
   &:active {
