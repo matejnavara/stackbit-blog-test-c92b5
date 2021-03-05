@@ -130,6 +130,10 @@
       margin-left: 1.75vw;
       margin-right: 1.75vw;
       overflow: hidden;
+      &:hover {
+        box-shadow: 3px 3px 3px 0px rgba(_palette(accent), 0.3);
+        transition: ease-in-out 0.3s;
+      }
     }
 
     .post-card-content {
