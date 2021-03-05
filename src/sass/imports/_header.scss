@@ -53,13 +53,6 @@
 }
 
 .menu-item {
-  padding: 0 10px;
-
-  &.current-menu-item {
-    color: white;
-    background-color: _palette(accent);
-  }
-
   a {
     &:not(.button) {
       border: 0;

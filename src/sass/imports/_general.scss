@@ -19,8 +19,8 @@ a {
   border-bottom: 2px solid _palette(accent);
   color: _palette(primary);
   text-decoration: none;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 
   &:hover {
     border-color: currentColor;
@@ -126,7 +126,7 @@ blockquote {
   position: relative;
 
   &:first-child {
-    margin-top: 0
+    margin-top: 0;
   }
 
   &:before {
@@ -289,7 +289,7 @@ textarea {
   &:before,
   &:after {
     border: solid transparent;
-    border-width: .3125em;
+    border-width: 0.3125em;
     box-sizing: border-box;
     content: "";
     position: absolute;
@@ -300,12 +300,12 @@ textarea {
 
   &:before {
     border-top-color: _palette(meta);
-    margin-top: .125em;
+    margin-top: 0.125em;
   }
 
   &:after {
     border-bottom-color: _palette(meta);
-    margin-top: -.75em;
+    margin-top: -0.75em;
   }
 }
 
@@ -313,7 +313,7 @@ textarea {
   padding-left: 24px;
   position: relative;
 
-  input[type=checkbox] {
+  input[type="checkbox"] {
     height: 1.5em;
     left: 0;
     position: absolute;
@@ -366,10 +366,11 @@ input[type="reset"],
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   vertical-align: middle;
 
+  .selected,
   &:hover,
   &:focus,
   &:active {
@@ -384,6 +385,7 @@ input[type="reset"],
   background: 0;
   color: _palette(accent);
 
+  .selected,
   &:hover,
   &:focus,
   &:active {
@@ -409,6 +411,7 @@ input[type="reset"],
   justify-content: center;
   padding: 0.25em 0;
 
+  .selected,
   &:hover,
   &:focus,
   &:active {

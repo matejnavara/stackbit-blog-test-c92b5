@@ -9,6 +9,8 @@ export default class ActionLink extends React.Component {
     let action = _.get(this.props, "action", null);
     let action_style = _.get(action, "style", null) || "link";
     let action_icon = _.get(action, "icon_class", null) || "dev";
+    let pageUrl = _.trim(_.get(this.props, "pageContext.url", null), "/");
+    let actionUrl = _.trim(_.get(action, "url", null), "/");
     return (
       <Link
         to={withPrefix(_.get(action, "url", null))}
@@ -25,6 +27,7 @@ export default class ActionLink extends React.Component {
           button: action_style !== "link",
           "button-secondary": action_style === "secondary",
           "button-icon": action_style === "icon",
+          selected: pageUrl === actionUrl,
         })}
       >
         {action_style === "icon" ? (
